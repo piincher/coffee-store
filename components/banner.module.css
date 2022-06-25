@@ -1,6 +1,9 @@
 /** By default, this is a mobile breakpoint **/
 .container {
+ 
   margin-bottom: 1rem;
+  position: relative;
+  z-index: 2
 }
 
 .title {
@@ -105,6 +108,7 @@
 @media (min-width: 1024px) {
   .container {
     text-align: left;
+  
   }
 
   .title {

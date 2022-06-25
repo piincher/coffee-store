@@ -7,9 +7,11 @@ export const Banner = ({ buttonText, handleButton }) => {
         <span className={styles.title2}>Shop</span>
       </h1>
       <p className={styles.subTitle}>discover your coffee stores</p>
-      <button className={styles.button} onClick={handleButton}>
-        {buttonText}
-      </button>
+      <div className={styles.buttonWrapper}>
+        <button className={styles.button} onClick={handleButton}>
+          {buttonText}
+        </button>
+      </div>
     </div>
   );
 };

@@ -21,8 +21,8 @@ a {
   box-sizing: border-box;
 }
 :root {
-  --text-purple: rgba(67, 56, 202, 1);
-  --text-purple-dark: rgba(79, 70, 229, 1);
-  --text-black: rgba(17, 24, 39, 1);
-  --text-white-100: rgba(229, 231, 235, 1);
+  --text-purple: rgb(202, 56, 88);
+  --text-purple-dark: rgb(120, 229, 70);
+  --text-black: rgb(13, 89, 253);
+  --text-white-100: rgb(14, 13, 13);
 }
